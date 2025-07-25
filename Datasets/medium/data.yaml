@@ -1,0 +1,9 @@
+# dataset path
+train: F:/JD/ultralytics/Datasets/medium/images/train
+val: F:/JD/ultralytics/Datasets/medium/images/test
+test: F:/JD/ultralytics/Datasets/medium/images/test
+# number of classes
+nc: 1
+
+# class names
+names: ['crack']

@@ -181,7 +181,7 @@ def non_max_suppression(
     Args:
         prediction (torch.Tensor): A tensor of shape (batch_size, num_classes + 4 + num_masks, num_boxes)
             containing the predicted boxes, classes, and masks. The tensor should be in the format
-            output by a model, such as YOLO.
+            output by a model, such as YOLO
         conf_thres (float): The confidence threshold below which boxes will be filtered out.
             Valid values are between 0.0 and 1.0.
         iou_thres (float): The IoU threshold below which boxes will be filtered out during NMS.

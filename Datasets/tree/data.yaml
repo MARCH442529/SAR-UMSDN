@@ -1,0 +1,9 @@
+# dataset path
+train: F:/JD/ultralytics/Datasets/tree/images/train
+val: F:/JD/ultralytics/Datasets/tree/images/val
+test: F:/JD/ultralytics/Datasets/tree/images/val
+# number of classes
+nc: 2
+
+# class names
+names: ['tree','cut']
